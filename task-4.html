@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Task 4</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+
+<body>
+    <h1>Fill in your information</h1>
+
+    <form action="#" method="POST" novalidate="" enctype="multipart/form-data" autocomplete="off">
+        <fieldset>
+            <legend>Form</legend>
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email">
+
+            <h3>Your Gender</h3>
+            <input type="radio" id="Male" name="gender">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="gender">
+            <label for="Female">Female</label>
+
+            <h3>Favorite Subject</h3>
+            <input type="checkbox" id="c++" name="subject1">
+            <label for="c++">C++</label>
+            <input type="checkbox" id="Java" name="subject2">
+            <label for="Java">Java</label>
+            <input type="checkbox" id="c#" name="subject3">
+            <label for="c#">C#</label>
+            <input type="checkbox" id="php" name="subject4">
+            <label for="php">PHP</label>
+            <input type="checkbox" id="sql" name="subject5">
+            <label for="sql">SQL</label>
+
+            <h3>Your City</h3>
+            <label for="City">City:</label>
+            <select id="City">
+                <option value="1">Amman</option>
+                <option selected value="2">Irbid</option>
+                <option value="3">Aqaba</option>
+
+            </select>
+            <br>
+            <label for="imageUpload">Upload Image:</label>
+            <input type="file" accept="image/*" id="imageUpload" >
+            <br>
+            <label>Write About Yourself:</label><br>
+            <textarea name="about" cols="50" rows="4" placeholder="Write Here"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+            
+
+
+        </fieldset>
+    </form>
+<br><br>
+    <form action="#" method="POST" novalidate="" enctype="multipart/form-data" autocomplete="off">
+       
+
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="name"><br>
+            <label for="Address">Address:</label>
+            <input type="text" id="Address" name="address"><br>
+            <label for="City">City:</label>
+            <input type="text" id="City" name="city"><br>
+            <label for="State">State:</label>
+            <input type="text" id="State" name="state"><br>
+            <label for="Zip">Zip:</label>
+            <input type="text" id="Zip" name="zip"><br>
+            <label for="Magazine">Magazine:</label>
+            <select id="Magazine">
+                <option value="1">Newsweek</option>
+                <option value="2">DailyMill</option>
+                <option value="3">Rotana</option>
+
+            </select>
+            <br>
+            <label >Subscription:</label>
+            <input type="radio" id="1Year" name="year">
+            <label for="1Year">1 Year</label>
+            <input type="radio" id="2Year" name="year">
+            <label for="2Year">2 Year</label>
+
+            
+            <br>
+            <button type="submit">Send Your Order</button>
+            
+
+
+    
+    </form>
+</body>
+
+</html>
